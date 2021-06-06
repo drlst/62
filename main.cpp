@@ -23,9 +23,9 @@ void Ktra(const int arr[], int n){
     }
 
     if(sumchan==sumle)
-        cout<<"\nTong so chan o vi tri le= "<<sumchan<<" Tong so le 0 vi tri chan= "<<sumle<<endl;
+        cout<<"\nTong so chan o vi tri le= "<<sumchan<<" Giong tong so le 0 vi tri chan= "<<sumle<<endl;
     else
-        cout<<"\nTong so chan o vi tri le= "<<sumchan<<" Tong so le 0 vi tri chan= "<<sumle<<endl;
+        cout<<"\nTong so chan o vi tri le= "<<sumchan<<" Khac tong so le 0 vi tri chan= "<<sumle<<endl;
 
 }
 
