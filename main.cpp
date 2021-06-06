@@ -21,9 +21,11 @@ void Ktra(const int arr[], int n){
         if(i%2!=0 && arr[i]%2==0) sumchan+=arr[i];
         if(i%2==0 && arr[i]%2!=0) sumle+=arr[i];
     }
-    if(sumchan==sumle) cout << "\n" << sumchan << "=" << sumle << endl;
+
+    if(sumchan==sumle)
+        cout<<"\nTong so chan o vi tri le= "<<sumchan<<" Tong so le 0 vi tri chan= "<<sumle<<endl;
     else
-        cout<<"\nsai "<<sumchan<<" khac "<<sumle<<endl;
+        cout<<"\nTong so chan o vi tri le= "<<sumchan<<" Tong so le 0 vi tri chan= "<<sumle<<endl;
 
 }
 
